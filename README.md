@@ -10,6 +10,8 @@ You can see the result [here](https://szeller42.github.io/try-webr/example.html)
 To install `quarto-webr`, I ran the following in the terminal:
 
     quarto install extension coatless/quarto-webr
+    
+## Using `webR` in the `qmd`-document
 
 Then, in the `yaml`-header, add
 
