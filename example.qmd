@@ -1,0 +1,41 @@
+---
+title: "WebR-enabled code cell"
+author: Sarah
+format: 
+  html:
+    self-contained: true
+
+filters:
+  - webr
+---
+
+## Demo
+
+This is a webr-enabled code cell in a Quarto HTML document.
+
+```webr
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+
+```webr
+1 + 1 
+```
+
+## A plot
+
+Try this out, you can even plot!
+
+```webr
+iris$Sepal.Length |> 
+  plot()
+```
+
+## Static code
+
+However, you can still use the static code chunks -- no problem there.
+
+```{r}
+names(iris)
+```
+
